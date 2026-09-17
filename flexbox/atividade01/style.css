@@ -21,8 +21,9 @@ h1 {
     border: solid 2px #212427;
 
     display: flex;
-    justify-content: space-between;
-    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
 }
 
 .filho {
