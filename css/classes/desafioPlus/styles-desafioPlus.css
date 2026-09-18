@@ -1,0 +1,38 @@
+/* Siga as orientações no arquivo README para concluir o exercício */
+:root {
+    --glindapink: #f799b2;
+}
+
+.container {
+    background-color: lightgreen;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    color: white;
+}
+
+.cabecalho {
+    background-color: var(--glindapink);
+    text-align: center;
+}
+
+.titulo-principal{
+    color: white;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.subtitulo {
+    color: white;
+}
+
+.conteudo {
+    background-color: var(--glindapink);
+    color: white;
+}
+
+.conteudo > p:nth-of-type(3){
+    color: purple;
+    vertical-align: sub;
+    position: relative;
+    top: 5px;
+}
